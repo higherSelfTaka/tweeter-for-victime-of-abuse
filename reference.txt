@@ -1,0 +1,19 @@
+
+Javascript NextJS チュートリアル: Twitter 🐦 クローンを作成する
+https://www.youtube.com/watch?v=5Wak0iyGCrc
+
+Messaging function 
+https://www.youtube.com/watch?v=k4mjF4sPITE
+
+Stripe and NextJs Integration 
+https://www.youtube.com/watch?v=YQjB1ZjTj8c&t=1490s
+
+Chat Function
+https://www.youtube.com/watch?v=PJCr_aoOv68
+
+フル スタック React チャット アプリのチュートリアル (Firebase v9 + ChakraUI + NextJS)
+https://www.youtube.com/watch?v=i8YFPPx_BYw&t=3797s
+
+
+
+西村幸祐
