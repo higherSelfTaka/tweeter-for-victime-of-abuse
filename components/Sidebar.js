@@ -25,7 +25,7 @@ function Sidebar() {
   return (
     <div className="hidden sm:flex flex-col items-center 
     xl:items-start xl:w-[340px] p-2 fixed h-full">
-      <div className="flex items-center justify-center w-14 w-14 hoverAnimation p-0
+      <div className="flex items-center justify-center w-14 h-14 hoverAnimation p-0
       xl:ml-24">
         <Image 
         src="/logo.png" 
@@ -45,9 +45,9 @@ function Sidebar() {
       </div>
 
 
-      <button className="hidden xl:inline ml-auto bg-[#1d9bf0]
+      <button className="hidden xl:inline ml-auto bg-[#a4344e]
        text-white rounded-full w-56 h-[52px] text-lg font-bold shadow-md
-       hover:bg-[#1a8cd8]"
+       hover:bg-[#f46464]"
        onDoubleClick={(e)=>{
         e.stopPropagation();
         setIsTweetModalOpen(true);
@@ -58,13 +58,13 @@ function Sidebar() {
         Tweet
       </button>
 
-      <div className="text-[#d9d9d9] flex items-center justify-center hoverAnimation 
+      <div className="text-[#d84545] flex items-center justify-center hoverAnimation 
       xl:ml-auto xl:-mr-5 mt-auto" onClick={signOut}>
             <img src={session.user.image} alt="" className="h-10 w-10 rounded-full xl:mr-2.5"/>
 
             <div className="hidden xl:inline leading-5">
                 <h4 className="font-bold">{session.user.name}</h4>
-                <p className="text-[#6e767d]">@{session.user.tag}</p>
+                <p className="text-[#d84545]">@{session.user.tag}</p>
             </div>
 
             <Image src="/three.png"  width={18} height={10} className="h-5  hidden xl:inline ml-10"/> 

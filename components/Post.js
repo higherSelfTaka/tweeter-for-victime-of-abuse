@@ -43,8 +43,6 @@ import { db } from "../firebase";
 
 
 
-
-
 function Post({id, post, postPage}) {
 
 const {data: session} =useSession();
@@ -219,10 +217,10 @@ const likePost= async()=>{
           </div>
 
           <div className="icon group">
-            <ShareIcon className="h-5 group-hover:text-[#1d9bf0]" />
+            {/* <ShareIcon className="h-5 group-hover:text-[#1d9bf0]" /> */}
           </div>
           <div className="icon group">
-            <ChartBarIcon className="h-5 group-hover:text-[#1d9bf0]" />
+            {/* <ChartBarIcon className="h-5 group-hover:text-[#1d9bf0]" /> */}
           </div>
         </div>
        </div>

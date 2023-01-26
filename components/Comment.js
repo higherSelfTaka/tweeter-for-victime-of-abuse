@@ -50,21 +50,21 @@ function Comment({id, comment}) {
 
         <div className="text-[#6e767d] flex justify-between w-10/12">
           <div className="icon group">
-            <ChatBubbleLeftEllipsisIcon className="h-4 group-hover:text-[#1d9bf0]" /> 
+            {/* <ChatBubbleLeftEllipsisIcon className="h-4 group-hover:text-[#1d9bf0]" />  */}
           </div>
 
           <div className="flex items-center space-x-1 group">
             <div className="icon group-hover:bg-pink-600/10">
-               <HeartIcon className="h-4 group-hover:text-pink-600" /> 
+               {/* <HeartIcon className="h-4 group-hover:text-pink-600" />  */}
             </div>
             <span className="group-hover:text-pink-600 text-sm"></span>
           </div>
 
           <div className="icon group">
-             <ShareIcon className="h-4 group-hover:text-[#1d9bf0]" /> 
+             {/* <ShareIcon className="h-4 group-hover:text-[#1d9bf0]" />  */}
           </div>
           <div className="icon group">
-            <ChartBarIcon className="h-4 group-hover:text-[#1d9bf0]" /> 
+            {/* <ChartBarIcon className="h-4 group-hover:text-[#1d9bf0]" />  */}
           </div>
         </div>
       </div>

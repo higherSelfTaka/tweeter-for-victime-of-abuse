@@ -1,6 +1,6 @@
 
 import { React, useState, useEffect, useRef } from 'react'
-import Message from './Message'
+
 import SendMessage from './SendMessage'
 import {useSession} from 'next-auth/react'
 // firebase
